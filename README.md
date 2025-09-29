@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abd Razak Mohamed Navaa</h1>
-<h3 align="center">A Mobile & Web Developer from Mauritania</h3>
+<h3 align="center">A Software Engineer from Mauritania</h3>
 <img src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif" align="right" alt="coding" width="400">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abdounavaa&label=Profile%20views&color=0e75b6&style=flat" alt="abdounavaa" /> </p>
@@ -26,5 +26,5 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abdounavaa&show_icons=true&locale=en&layout=compact" alt="abdounavaa" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&locale=en" alt="abdounavaa" /></p>
+<!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&locale=en" alt="abdounavaa" /></p> -->
 
