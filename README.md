@@ -1,414 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abd Razak Mohamed Navaa — Software Engineer</title>
-  <meta name="description" content="Software Engineer from Mauritania. Flutter, React, and more.">
-  <meta property="og:title" content="Abd Razak Mohamed Navaa">
-  <meta property="og:description" content="Software Engineer from Mauritania — Flutter & React developer">
-  <meta property="og:type" content="website">
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<!-- HEADER SECTION -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D0D0D&height=280&section=header&text=Abd%20Razak%20Mohamed%20Navaa&fontSize=48&fontColor=ffffff&fontAlignY=45&fontAlign=50&desc=software_engineer%20%40%20Mauritania&descSize=16&descColor=4ADE80&descAlignY=62&descAlign=50&borderRadius=15" width="100%"/>
+</div>
 
-    body {
-      min-height: 100vh;
-      background: #f0efea;
-      font-family: 'Syne', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1rem;
-      gap: 1.5rem;
-    }
+<!-- DYNAMIC STATUS & CONTACTS -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=3000&color=4ADE80&center=true&vCenter=true&width=300&height=40&lines=%E2%97%8F+AVAILABLE+FOR+WORK" />
+</div>
 
-    .profile-card {
-      background: #fff;
-      border: 1px solid #e5e5e0;
-      border-radius: 24px;
-      overflow: hidden;
-      width: 100%;
-      max-width: 680px;
-      box-shadow: 0 8px 48px rgba(0,0,0,0.08);
-      animation: rise 0.5s cubic-bezier(.22,.68,0,1.2) both;
-    }
+<div align="center">
+  <a href="mailto:babana9977@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7%20babana9977%40gmail.com-0D0D0D?style=flat-square&logoColor=4ADE80" /></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/abd-razak-babana-983336281" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%92%BC%20LinkedIn-0D0D0D?style=flat-square&logoColor=4ADE80" /></a>
+  &nbsp;
+  <a href="https://medium.com/@babana9977" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%93%9D%20Medium-0D0D0D?style=flat-square&logoColor=4ADE80" /></a>
+  &nbsp;
+  <a href="https://github.com/abdounavaa" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%90%B1%20GitHub-0D0D0D?style=flat-square&logoColor=4ADE80" /></a>
+</div>
 
-    @keyframes rise {
-      from { opacity: 0; transform: translateY(24px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=f0efea&height=2&section=header" width="100%"/>
+<br/>
 
-    /* Hero */
-    .hero {
-      background: #0D0D0D;
-      padding: 2.25rem 2rem 1.75rem;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: -40px; right: -40px;
-      width: 220px; height: 220px;
-      border-radius: 50%;
-      border: 44px solid rgba(255,255,255,0.04);
-      pointer-events: none;
-    }
-    .hero::after {
-      content: '';
-      position: absolute;
-      bottom: -60px; left: 38%;
-      width: 160px; height: 160px;
-      border-radius: 50%;
-      border: 32px solid rgba(255,255,255,0.03);
-      pointer-events: none;
-    }
+<!-- GRID SECTION -->
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td width="50%" valign="top">
+  <p align="left"><font color="#A0A0A0" size="2"><b>CURRENTLY LEARNING</b></font></p>
+  <table bgcolor="#F7F7F5" width="100%" style="border-radius: 12px; border: 1px solid #eeeeee;">
+    <tr>
+      <td align="center" width="70" style="padding: 15px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="35" />
+      </td>
+      <td style="padding: 15px 15px 15px 0;">
+        <font size="4"><b>Flutter & Dart</b></font><br/>
+        <font size="2" color="#777">cross-platform mobile dev</font>
+      </td>
+    </tr>
+  </table>
+</td>
+<td width="50%" valign="top">
+  <p align="left"><font color="#A0A0A0" size="2"><b>ASK ME ABOUT</b></font></p>
+  <br/>
+  <img src="https://img.shields.io/badge/%E2%97%8F%20React-EBF5FD?style=flat-square&logo=react&logoColor=0C6B99&labelColor=EBF5FD&color=EBF5FD" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/%E2%97%8F%20Flutter-EBF0FE?style=flat-square&logo=flutter&logoColor=0C3D99&labelColor=EBF0FE&color=EBF0FE" />
+</td>
+</tr>
+</table>
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: #777;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-      margin-bottom: 1.1rem;
-    }
-    .badge-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: #4ADE80;
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(74,222,128,0.4); }
-      50%       { opacity: 0.7; box-shadow: 0 0 0 6px rgba(74,222,128,0); }
-    }
+<br/>
 
-    .hero-name {
-      font-size: clamp(24px, 5vw, 32px);
-      font-weight: 800;
-      color: #fff;
-      line-height: 1.1;
-      margin-bottom: 0.35rem;
-      letter-spacing: -0.025em;
-    }
-    .hero-title {
-      font-size: 13px;
-      color: #555;
-      font-family: 'JetBrains Mono', monospace;
-      margin-bottom: 1.6rem;
-    }
-    .hero-title span { color: #4ADE80; }
+<!-- LANGUAGES & TOOLS -->
+<p align="left"><font color="#A0A0A0" size="2"><b>LANGUAGES & TOOLS</b></font></p>
+<div align="left">
+  <img src="https://img.shields.io/badge/TypeScript-F7F7F5?style=flat-square&logo=typescript&logoColor=3178C6" height="28"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7F7F5?style=flat-square&logo=javascript&logoColor=F7DF1E" height="28"/>
+  <img src="https://img.shields.io/badge/Python-F7F7F5?style=flat-square&logo=python&logoColor=3776AB" height="28"/>
+  <img src="https://img.shields.io/badge/Dart-F7F7F5?style=flat-square&logo=dart&logoColor=0175C2" height="28"/>
+  <img src="https://img.shields.io/badge/Java-F7F7F5?style=flat-square&logo=openjdk&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/React-F7F7F5?style=flat-square&logo=react&logoColor=61DAFB" height="28"/>
+  <img src="https://img.shields.io/badge/Next.js-F7F7F5?style=flat-square&logo=nextdotjs&logoColor=000000" height="28"/>
+  <img src="https://img.shields.io/badge/Flutter-F7F7F5?style=flat-square&logo=flutter&logoColor=02569B" height="28"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Node.js-F7F7F5?style=flat-square&logo=nodedotjs&logoColor=339933" height="28"/>
+  <img src="https://img.shields.io/badge/Angular-F7F7F5?style=flat-square&logo=angular&logoColor=DD0031" height="28"/>
+  <img src="https://img.shields.io/badge/Django-F7F7F5?style=flat-square&logo=django&logoColor=092E20" height="28"/>
+  <img src="https://img.shields.io/badge/Laravel-F7F7F5?style=flat-square&logo=laravel&logoColor=FF2D20" height="28"/>
+  <img src="https://img.shields.io/badge/Spring-F7F7F5?style=flat-square&logo=spring&logoColor=6DB33F" height="28"/>
+  <img src="https://img.shields.io/badge/Redux-F7F7F5?style=flat-square&logo=redux&logoColor=764ABC" height="28"/>
+  <img src="https://img.shields.io/badge/GraphQL-F7F7F5?style=flat-square&logo=graphql&logoColor=E10098" height="28"/>
+  <img src="https://img.shields.io/badge/Firebase-F7F7F5?style=flat-square&logo=firebase&logoColor=FFCA28" height="28"/>
+  <br/>
+  <img src="https://img.shields.io/badge/MongoDB-F7F7F5?style=flat-square&logo=mongodb&logoColor=47A248" height="28"/>
+  <img src="https://img.shields.io/badge/MySQL-F7F7F5?style=flat-square&logo=mysql&logoColor=4479A1" height="28"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-F7F7F5?style=flat-square&logo=postgresql&logoColor=4169E1" height="28"/>
+  <img src="https://img.shields.io/badge/Docker-F7F7F5?style=flat-square&logo=docker&logoColor=2496ED" height="28"/>
+  <img src="https://img.shields.io/badge/Figma-F7F7F5?style=flat-square&logo=figma&logoColor=F24E1E" height="28"/>
+  <img src="https://img.shields.io/badge/Git-F7F7F5?style=flat-square&logo=git&logoColor=F05032" height="28"/>
+  <img src="https://img.shields.io/badge/Tailwind-F7F7F5?style=flat-square&logo=tailwindcss&logoColor=06B6D4" height="28"/>
+  <img src="https://img.shields.io/badge/Sass-F7F7F5?style=flat-square&logo=sass&logoColor=CC6699" height="28"/>
+  <br/>
+  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B%20%2F%20C%23-F7F7F5?style=flat-square&logo=cplusplus&logoColor=00599C" height="28"/>
+  <img src="https://img.shields.io/badge/Hadoop-F7F7F5?style=flat-square&logo=apachehadoop&logoColor=66CCFF" height="28"/>
+  <img src="https://img.shields.io/badge/Pandas-F7F7F5?style=flat-square&logo=pandas&logoColor=150458" height="28"/>
+</div>
 
-    .contact-row { display: flex; gap: 8px; flex-wrap: wrap; }
-    .contact-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 11px;
-      border-radius: 7px;
-      border: 1px solid #242424;
-      font-size: 11px;
-      font-family: 'JetBrains Mono', monospace;
-      color: #888;
-      text-decoration: none;
-      transition: border-color 0.15s, color 0.15s, background 0.15s;
-    }
-    .contact-chip:hover { border-color: #3a3a3a; color: #ccc; background: #1a1a1a; }
+<br/>
 
-    /* Body */
-    .body {
-      padding: 1.75rem 2rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-    }
+<!-- TOP STATS CARDS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td width="33%">
+      <img src="https://img.shields.io/badge/27%2B-technologies-F7F7F5?style=for-the-badge&labelColor=F7F7F5&color=F7F7F5" width="100%" />
+    </td>
+    <td width="33%">
+      <img src="https://img.shields.io/badge/5%2B-languages-F7F7F5?style=for-the-badge&labelColor=F7F7F5&color=F7F7F5" width="100%" />
+    </td>
+    <td width="33%">
+      <img src="https://img.shields.io/badge/MR-Mauritania-F7F7F5?style=for-the-badge&labelColor=F7F7F5&color=F7F7F5" width="100%" />
+    </td>
+  </tr>
+</table>
 
-    .section-label {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: #bbb;
-      margin-bottom: 0.8rem;
-    }
+<br/>
 
-    .currently-learning {
-      background: #f7f7f5;
-      border-radius: 14px;
-      padding: 1rem 1.1rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-    }
-    .flutter-icon {
-      width: 36px; height: 36px;
-      border-radius: 10px;
-      background: #0554F2;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .currently-learning strong { display: block; font-size: 14px; font-weight: 600; color: #111; margin-bottom: 3px; }
-    .currently-learning p { font-size: 12px; color: #888; line-height: 1.5; font-family: 'JetBrains Mono', monospace; }
+<!-- GITHUB STATS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&hide_border=true&bg_color=F7F7F5&title_color=111111&text_color=555555&icon_color=0554F2&ring_color=0554F2" width="100%" />
+</td>
+<td width="50%" align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abdounavaa&layout=compact&hide_border=true&bg_color=F7F7F5&title_color=111111&text_color=555555" width="100%" />
+</td>
+</tr>
+</table>
 
-    .ask-me { display: flex; flex-direction: column; gap: 7px; }
-    .skill-tag { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 9px; font-size: 12px; font-weight: 600; width: fit-content; }
-    .tag-react   { background: #EBF5FD; color: #0C6B99; }
-    .tag-flutter { background: #EBF0FE; color: #0C3D99; }
-    .tag-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; opacity: 0.5; }
+<br/>
 
-    .divider { grid-column: 1 / -1; height: 1px; background: #efefec; margin: 0 -2rem; }
+<!-- FILE FOOTER -->
+<table bgcolor="#F7F7F5" width="100%" style="border-radius: 10px; border: 1px solid #e5e5e0;">
+  <tr>
+    <td style="padding: 15px;">
+      <font color="#555" size="2">📄 abdounavaa / <b>abdounavaa — README.md</b></font>
+      <span style="float: right; color: #ccc;">▼</span>
+    </td>
+  </tr>
+</table>
 
-    .skills-section { grid-column: 1 / -1; }
-    .skills-grid { display: flex; flex-wrap: wrap; gap: 7px; }
-    .skill-pill {
-      padding: 5px 11px;
-      border: 1px solid #e5e5e0;
-      border-radius: 20px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: #888;
-      transition: border-color 0.15s, color 0.15s;
-    }
-    .skill-pill:hover { border-color: #aaa; color: #333; }
-    .skill-pill.accent { border-color: #ccc; color: #111; font-weight: 500; }
+<br/>
 
-    .stats-section { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-    .stat-card { background: #f7f7f5; border-radius: 12px; padding: 0.9rem 1rem; }
-    .stat-number { font-size: 24px; font-weight: 800; color: #111; line-height: 1; margin-bottom: 4px; letter-spacing: -0.025em; }
-    .stat-label { font-size: 11px; color: #bbb; font-family: 'JetBrains Mono', monospace; }
-
-    .github-stats { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .github-stats img { width: 100%; border-radius: 12px; border: 1px solid #e5e5e0; }
-
-    /* README viewer section */
-    .readme-section { grid-column: 1 / -1; }
-    .readme-toggle {
-      width: 100%;
-      background: #f7f7f5;
-      border: 1px solid #e5e5e0;
-      border-radius: 12px;
-      padding: 0.85rem 1.1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      cursor: pointer;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      color: #555;
-      transition: background 0.15s;
-    }
-    .readme-toggle:hover { background: #f0f0ed; }
-    .readme-toggle .arrow {
-      font-size: 10px;
-      color: #aaa;
-      transition: transform 0.2s;
-    }
-    .readme-toggle.open .arrow { transform: rotate(180deg); }
-
-    .readme-body {
-      display: none;
-      margin-top: 8px;
-      background: #f7f7f5;
-      border: 1px solid #e5e5e0;
-      border-radius: 12px;
-      padding: 1.25rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      color: #555;
-      line-height: 1.8;
-      white-space: pre-wrap;
-      word-break: break-word;
-      max-height: 320px;
-      overflow-y: auto;
-    }
-    .readme-body.open { display: block; }
-
-    .footer {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: #aaa;
-      text-align: center;
-      letter-spacing: 0.05em;
-    }
-    .footer a { color: #888; text-decoration: none; }
-    .footer a:hover { color: #333; }
-
-    @media (max-width: 520px) {
-      .body { grid-template-columns: 1fr; padding: 1.25rem; }
-      .divider { margin: 0 -1.25rem; }
-      .github-stats { grid-template-columns: 1fr; }
-    }
-  </style>
-</head>
-<body>
-
-  <div class="profile-card">
-
-    <!-- Hero -->
-    <div class="hero">
-      <div class="badge"><span class="badge-dot"></span>available for work</div>
-      <div class="hero-name">Abd Razak<br>Mohamed Navaa</div>
-      <div class="hero-title">software_engineer @ <span>Mauritania</span></div>
-      <div class="contact-row">
-        <a class="contact-chip" href="mailto:babana9977@gmail.com">
-          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 5l7 5 7-5" stroke="currentColor" stroke-width="1.5"/></svg>
-          babana9977@gmail.com
-        </a>
-        <a class="contact-chip" href="https://linkedin.com/in/abd-razak-babana-983336281" target="_blank" rel="noopener">
-          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 7v5M4 4.5v.5M8 12V9c0-1.1.9-2 2-2s2 .9 2 2v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-          LinkedIn
-        </a>
-        <a class="contact-chip" href="https://medium.com/@babana9977" target="_blank" rel="noopener">
-          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><circle cx="4.5" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5"/><ellipse cx="11" cy="8" rx="2" ry="3.5" stroke="currentColor" stroke-width="1.5"/><line x1="14.5" y1="4.5" x2="14.5" y2="11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-          Medium
-        </a>
-        <a class="contact-chip" href="https://github.com/abdounavaa" target="_blank" rel="noopener">
-          <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M8 1C4.13 1 1 4.13 1 8c0 3.09 2.005 5.71 4.785 6.635.35.065.475-.15.475-.335v-1.175c-1.945.425-2.355-.94-2.355-.94-.315-.805-.77-1.02-.77-1.02-.63-.43.05-.42.05-.42.7.05 1.065.715 1.065.715.62 1.06 1.625.755 2.025.575.065-.45.245-.755.44-.93-1.545-.175-3.17-.775-3.17-3.44 0-.76.27-1.38.715-1.865-.07-.175-.31-.885.07-1.84 0 0 .585-.19 1.915.715A6.68 6.68 0 0 1 8 4.82a6.68 6.68 0 0 1 1.745.235c1.33-.905 1.91-.715 1.91-.715.38.955.14 1.665.07 1.84.445.485.715 1.105.715 1.865 0 2.675-1.63 3.26-3.185 3.43.25.215.475.64.475 1.29v1.915c0 .185.125.405.48.335C12.995 13.71 15 11.09 15 8c0-3.87-3.13-7-7-7z"/></svg>
-          GitHub
-        </a>
-      </div>
-    </div>
-
-    <!-- Body -->
-    <div class="body">
-
-      <div>
-        <div class="section-label">currently learning</div>
-        <div class="currently-learning">
-          <div class="flutter-icon">
-            <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
-              <path d="M28 4L9 23l6 6L40 4H28z" fill="white"/>
-              <path d="M28 23l-6-6-13 13 6 6 13-13z" fill="rgba(255,255,255,0.55)"/>
-              <path d="M15 36l6 6 13-13-6-6-13 13z" fill="white"/>
-            </svg>
-          </div>
-          <div>
-            <strong>Flutter &amp; Dart</strong>
-            <p>cross-platform mobile dev</p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="section-label">ask me about</div>
-        <div class="ask-me">
-          <span class="skill-tag tag-react"><span class="tag-dot"></span>React</span>
-          <span class="skill-tag tag-flutter"><span class="tag-dot"></span>Flutter</span>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="skills-section">
-        <div class="section-label">languages &amp; tools</div>
-        <div class="skills-grid">
-          <span class="skill-pill accent">TypeScript</span>
-          <span class="skill-pill accent">JavaScript</span>
-          <span class="skill-pill accent">Python</span>
-          <span class="skill-pill accent">Dart</span>
-          <span class="skill-pill accent">Java</span>
-          <span class="skill-pill">React</span>
-          <span class="skill-pill">Next.js</span>
-          <span class="skill-pill">Flutter</span>
-          <span class="skill-pill">Node.js</span>
-          <span class="skill-pill">Angular</span>
-          <span class="skill-pill">Django</span>
-          <span class="skill-pill">Laravel</span>
-          <span class="skill-pill">Spring</span>
-          <span class="skill-pill">Redux</span>
-          <span class="skill-pill">GraphQL</span>
-          <span class="skill-pill">Firebase</span>
-          <span class="skill-pill">MongoDB</span>
-          <span class="skill-pill">MySQL</span>
-          <span class="skill-pill">PostgreSQL</span>
-          <span class="skill-pill">Docker</span>
-          <span class="skill-pill">Figma</span>
-          <span class="skill-pill">Git</span>
-          <span class="skill-pill">Tailwind</span>
-          <span class="skill-pill">Sass</span>
-          <span class="skill-pill">C / C++ / C#</span>
-          <span class="skill-pill">Hadoop</span>
-          <span class="skill-pill">Pandas</span>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="stats-section">
-        <div class="stat-card">
-          <div class="stat-number">27+</div>
-          <div class="stat-label">technologies</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">5+</div>
-          <div class="stat-label">languages</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">MR 🇲🇷</div>
-          <div class="stat-label">Mauritania</div>
-        </div>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="github-stats">
-        <img src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&hide_border=true&bg_color=f7f7f5&title_color=111&text_color=555&icon_color=0554F2" alt="GitHub stats"/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abdounavaa&layout=compact&hide_border=true&bg_color=f7f7f5&title_color=111&text_color=555" alt="Top languages"/>
-      </div>
-
-      <div class="divider"></div>
-
-      <!-- README viewer -->
-      <div class="readme-section">
-        <div class="section-label">readme.md</div>
-        <button class="readme-toggle" id="readmeToggle" onclick="toggleReadme()">
-          <span>📄 abdounavaa / abdounavaa — README.md</span>
-          <span class="arrow" id="arrow">▼</span>
-        </button>
-        <div class="readme-body" id="readmeBody">Loading README...</div>
-      </div>
-
-    </div>
-  </div>
-
-  <p class="footer">
-    <a href="https://github.com/abdounavaa" target="_blank" rel="noopener">abdounavaa</a>
-    &nbsp;·&nbsp; built with GitHub Pages
-  </p>
-
-  <script>
-    let readmeLoaded = false;
-
-    async function toggleReadme() {
-      const body = document.getElementById('readmeBody');
-      const toggle = document.getElementById('readmeToggle');
-      const arrow = document.getElementById('arrow');
-      const isOpen = body.classList.contains('open');
-
-      if (isOpen) {
-        body.classList.remove('open');
-        toggle.classList.remove('open');
-      } else {
-        body.classList.add('open');
-        toggle.classList.add('open');
-        if (!readmeLoaded) {
-          try {
-            const res = await fetch('https://raw.githubusercontent.com/abdounavaa/abdounavaa/main/README.md');
-            const text = await res.text();
-            body.textContent = text;
-            readmeLoaded = true;
-          } catch {
-            body.textContent = 'Could not load README.md';
-          }
-        }
-      }
-    }
-  </script>
-</body>
-</html>
+<p align="center">
+  <font color="#A0A0A0" size="2">abdounavaa • built with GitHub Pages</font>
+</p>
