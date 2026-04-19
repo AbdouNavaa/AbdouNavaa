@@ -1,29 +1,414 @@
-<h1 align="center">Hi 👋, I'm Abd Razak Mohamed Navaa</h1>
-<h3 align="center">A Software Engineer from Mauritania</h3>
-<img src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif" align="right" alt="coding" width="400">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abd Razak Mohamed Navaa — Software Engineer</title>
+  <meta name="description" content="Software Engineer from Mauritania. Flutter, React, and more.">
+  <meta property="og:title" content="Abd Razak Mohamed Navaa">
+  <meta property="og:description" content="Software Engineer from Mauritania — Flutter & React developer">
+  <meta property="og:type" content="website">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=abdounavaa&label=Profile%20views&color=0e75b6&style=flat" alt="abdounavaa" /> </p>
+    body {
+      min-height: 100vh;
+      background: #f0efea;
+      font-family: 'Syne', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      gap: 1.5rem;
+    }
 
-- 🌱 I’m currently learning **Flutter**
+    .profile-card {
+      background: #fff;
+      border: 1px solid #e5e5e0;
+      border-radius: 24px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 680px;
+      box-shadow: 0 8px 48px rgba(0,0,0,0.08);
+      animation: rise 0.5s cubic-bezier(.22,.68,0,1.2) both;
+    }
 
-<!-- - 👨‍💻 All of my projects are available at [https://abd-razak-portfolio.vercel.app/](https://abd-razak-portfolio.vercel.app/) -->
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
 
-- 💬 Ask me about **flutter , React**
+    /* Hero */
+    .hero {
+      background: #0D0D0D;
+      padding: 2.25rem 2rem 1.75rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 220px; height: 220px;
+      border-radius: 50%;
+      border: 44px solid rgba(255,255,255,0.04);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; left: 38%;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      border: 32px solid rgba(255,255,255,0.03);
+      pointer-events: none;
+    }
 
-- 📫 How to reach me **babana9977@gmail.com**
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #777;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      margin-bottom: 1.1rem;
+    }
+    .badge-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #4ADE80;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(74,222,128,0.4); }
+      50%       { opacity: 0.7; box-shadow: 0 0 0 6px rgba(74,222,128,0); }
+    }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a  style="text-decoration: none;" href="https://linkedin.com/in/in/abd-razak-babana-983336281" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/abd-razak-babana-983336281" height="30" width="40" /></a>
-<a href="https://medium.com/@babana9977" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@babana9977" height="30" width="40" /></a>
-</p>
+    .hero-name {
+      font-size: clamp(24px, 5vw, 32px);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 0.35rem;
+      letter-spacing: -0.025em;
+    }
+    .hero-title {
+      font-size: 13px;
+      color: #555;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 1.6rem;
+    }
+    .hero-title span { color: #4ADE80; }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-    <a href="https://angular.io" target="_blank" rel="noreferrer" style="margin: 5px; display: inline-block;">
-<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/>
-  </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://shamimofficial.com/public/assets/img/laravel-icon.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+    .contact-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .contact-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 11px;
+      border-radius: 7px;
+      border: 1px solid #242424;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', monospace;
+      color: #888;
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+    .contact-chip:hover { border-color: #3a3a3a; color: #ccc; background: #1a1a1a; }
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abdounavaa&show_icons=true&locale=en&layout=compact" alt="abdounavaa" /></p>
+    /* Body */
+    .body {
+      padding: 1.75rem 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&locale=en" alt="abdounavaa" /></p> 
+    .section-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #bbb;
+      margin-bottom: 0.8rem;
+    }
+
+    .currently-learning {
+      background: #f7f7f5;
+      border-radius: 14px;
+      padding: 1rem 1.1rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .flutter-icon {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: #0554F2;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .currently-learning strong { display: block; font-size: 14px; font-weight: 600; color: #111; margin-bottom: 3px; }
+    .currently-learning p { font-size: 12px; color: #888; line-height: 1.5; font-family: 'JetBrains Mono', monospace; }
+
+    .ask-me { display: flex; flex-direction: column; gap: 7px; }
+    .skill-tag { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 9px; font-size: 12px; font-weight: 600; width: fit-content; }
+    .tag-react   { background: #EBF5FD; color: #0C6B99; }
+    .tag-flutter { background: #EBF0FE; color: #0C3D99; }
+    .tag-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; opacity: 0.5; }
+
+    .divider { grid-column: 1 / -1; height: 1px; background: #efefec; margin: 0 -2rem; }
+
+    .skills-section { grid-column: 1 / -1; }
+    .skills-grid { display: flex; flex-wrap: wrap; gap: 7px; }
+    .skill-pill {
+      padding: 5px 11px;
+      border: 1px solid #e5e5e0;
+      border-radius: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #888;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .skill-pill:hover { border-color: #aaa; color: #333; }
+    .skill-pill.accent { border-color: #ccc; color: #111; font-weight: 500; }
+
+    .stats-section { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .stat-card { background: #f7f7f5; border-radius: 12px; padding: 0.9rem 1rem; }
+    .stat-number { font-size: 24px; font-weight: 800; color: #111; line-height: 1; margin-bottom: 4px; letter-spacing: -0.025em; }
+    .stat-label { font-size: 11px; color: #bbb; font-family: 'JetBrains Mono', monospace; }
+
+    .github-stats { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .github-stats img { width: 100%; border-radius: 12px; border: 1px solid #e5e5e0; }
+
+    /* README viewer section */
+    .readme-section { grid-column: 1 / -1; }
+    .readme-toggle {
+      width: 100%;
+      background: #f7f7f5;
+      border: 1px solid #e5e5e0;
+      border-radius: 12px;
+      padding: 0.85rem 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #555;
+      transition: background 0.15s;
+    }
+    .readme-toggle:hover { background: #f0f0ed; }
+    .readme-toggle .arrow {
+      font-size: 10px;
+      color: #aaa;
+      transition: transform 0.2s;
+    }
+    .readme-toggle.open .arrow { transform: rotate(180deg); }
+
+    .readme-body {
+      display: none;
+      margin-top: 8px;
+      background: #f7f7f5;
+      border: 1px solid #e5e5e0;
+      border-radius: 12px;
+      padding: 1.25rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: #555;
+      line-height: 1.8;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 320px;
+      overflow-y: auto;
+    }
+    .readme-body.open { display: block; }
+
+    .footer {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: #aaa;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .footer a { color: #888; text-decoration: none; }
+    .footer a:hover { color: #333; }
+
+    @media (max-width: 520px) {
+      .body { grid-template-columns: 1fr; padding: 1.25rem; }
+      .divider { margin: 0 -1.25rem; }
+      .github-stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="badge"><span class="badge-dot"></span>available for work</div>
+      <div class="hero-name">Abd Razak<br>Mohamed Navaa</div>
+      <div class="hero-title">software_engineer @ <span>Mauritania</span></div>
+      <div class="contact-row">
+        <a class="contact-chip" href="mailto:babana9977@gmail.com">
+          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M1 5l7 5 7-5" stroke="currentColor" stroke-width="1.5"/></svg>
+          babana9977@gmail.com
+        </a>
+        <a class="contact-chip" href="https://linkedin.com/in/abd-razak-babana-983336281" target="_blank" rel="noopener">
+          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><rect x="1" y="1" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 7v5M4 4.5v.5M8 12V9c0-1.1.9-2 2-2s2 .9 2 2v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          LinkedIn
+        </a>
+        <a class="contact-chip" href="https://medium.com/@babana9977" target="_blank" rel="noopener">
+          <svg width="11" height="11" viewBox="0 0 16 16" fill="none"><circle cx="4.5" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5"/><ellipse cx="11" cy="8" rx="2" ry="3.5" stroke="currentColor" stroke-width="1.5"/><line x1="14.5" y1="4.5" x2="14.5" y2="11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          Medium
+        </a>
+        <a class="contact-chip" href="https://github.com/abdounavaa" target="_blank" rel="noopener">
+          <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M8 1C4.13 1 1 4.13 1 8c0 3.09 2.005 5.71 4.785 6.635.35.065.475-.15.475-.335v-1.175c-1.945.425-2.355-.94-2.355-.94-.315-.805-.77-1.02-.77-1.02-.63-.43.05-.42.05-.42.7.05 1.065.715 1.065.715.62 1.06 1.625.755 2.025.575.065-.45.245-.755.44-.93-1.545-.175-3.17-.775-3.17-3.44 0-.76.27-1.38.715-1.865-.07-.175-.31-.885.07-1.84 0 0 .585-.19 1.915.715A6.68 6.68 0 0 1 8 4.82a6.68 6.68 0 0 1 1.745.235c1.33-.905 1.91-.715 1.91-.715.38.955.14 1.665.07 1.84.445.485.715 1.105.715 1.865 0 2.675-1.63 3.26-3.185 3.43.25.215.475.64.475 1.29v1.915c0 .185.125.405.48.335C12.995 13.71 15 11.09 15 8c0-3.87-3.13-7-7-7z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="body">
+
+      <div>
+        <div class="section-label">currently learning</div>
+        <div class="currently-learning">
+          <div class="flutter-icon">
+            <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
+              <path d="M28 4L9 23l6 6L40 4H28z" fill="white"/>
+              <path d="M28 23l-6-6-13 13 6 6 13-13z" fill="rgba(255,255,255,0.55)"/>
+              <path d="M15 36l6 6 13-13-6-6-13 13z" fill="white"/>
+            </svg>
+          </div>
+          <div>
+            <strong>Flutter &amp; Dart</strong>
+            <p>cross-platform mobile dev</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-label">ask me about</div>
+        <div class="ask-me">
+          <span class="skill-tag tag-react"><span class="tag-dot"></span>React</span>
+          <span class="skill-tag tag-flutter"><span class="tag-dot"></span>Flutter</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="skills-section">
+        <div class="section-label">languages &amp; tools</div>
+        <div class="skills-grid">
+          <span class="skill-pill accent">TypeScript</span>
+          <span class="skill-pill accent">JavaScript</span>
+          <span class="skill-pill accent">Python</span>
+          <span class="skill-pill accent">Dart</span>
+          <span class="skill-pill accent">Java</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Next.js</span>
+          <span class="skill-pill">Flutter</span>
+          <span class="skill-pill">Node.js</span>
+          <span class="skill-pill">Angular</span>
+          <span class="skill-pill">Django</span>
+          <span class="skill-pill">Laravel</span>
+          <span class="skill-pill">Spring</span>
+          <span class="skill-pill">Redux</span>
+          <span class="skill-pill">GraphQL</span>
+          <span class="skill-pill">Firebase</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">PostgreSQL</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">Figma</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Tailwind</span>
+          <span class="skill-pill">Sass</span>
+          <span class="skill-pill">C / C++ / C#</span>
+          <span class="skill-pill">Hadoop</span>
+          <span class="skill-pill">Pandas</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="stats-section">
+        <div class="stat-card">
+          <div class="stat-number">27+</div>
+          <div class="stat-label">technologies</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">5+</div>
+          <div class="stat-label">languages</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">MR 🇲🇷</div>
+          <div class="stat-label">Mauritania</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="github-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=abdounavaa&show_icons=true&hide_border=true&bg_color=f7f7f5&title_color=111&text_color=555&icon_color=0554F2" alt="GitHub stats"/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abdounavaa&layout=compact&hide_border=true&bg_color=f7f7f5&title_color=111&text_color=555" alt="Top languages"/>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- README viewer -->
+      <div class="readme-section">
+        <div class="section-label">readme.md</div>
+        <button class="readme-toggle" id="readmeToggle" onclick="toggleReadme()">
+          <span>📄 abdounavaa / abdounavaa — README.md</span>
+          <span class="arrow" id="arrow">▼</span>
+        </button>
+        <div class="readme-body" id="readmeBody">Loading README...</div>
+      </div>
+
+    </div>
+  </div>
+
+  <p class="footer">
+    <a href="https://github.com/abdounavaa" target="_blank" rel="noopener">abdounavaa</a>
+    &nbsp;·&nbsp; built with GitHub Pages
+  </p>
+
+  <script>
+    let readmeLoaded = false;
+
+    async function toggleReadme() {
+      const body = document.getElementById('readmeBody');
+      const toggle = document.getElementById('readmeToggle');
+      const arrow = document.getElementById('arrow');
+      const isOpen = body.classList.contains('open');
+
+      if (isOpen) {
+        body.classList.remove('open');
+        toggle.classList.remove('open');
+      } else {
+        body.classList.add('open');
+        toggle.classList.add('open');
+        if (!readmeLoaded) {
+          try {
+            const res = await fetch('https://raw.githubusercontent.com/abdounavaa/abdounavaa/main/README.md');
+            const text = await res.text();
+            body.textContent = text;
+            readmeLoaded = true;
+          } catch {
+            body.textContent = 'Could not load README.md';
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
